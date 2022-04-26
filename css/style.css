@@ -31,6 +31,7 @@ body {
 .link {
   outline: none;
   text-decoration: none;
+  display: flex;
 }
 .visually-hidden {
   position: absolute;
@@ -52,6 +53,7 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 
 /*-------------- HEADER-------------- */
 
@@ -107,6 +109,17 @@ header .container{
 .header-conects{
   margin-left: auto;
 }
+
+.icon-envelope {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-phone {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .contacts-link {
   color: var(--first-fonts-color);
   font-weight: 500;
@@ -115,7 +128,7 @@ header .container{
   letter-spacing: 0.02em;
 }
 .contact-item:not(:first-child){
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .contact-item{
   padding-top: 32px;
@@ -128,6 +141,7 @@ header .container{
 .contacts-link:focus {
   color: var(--accent-color);
 }
+
 
 
 /*-------------- HERO------------ */
@@ -175,6 +189,8 @@ header .container{
 }
 
 /*-------------- FEATURES------------ */
+
+
 .features{
   padding: 94px 0;
 }
