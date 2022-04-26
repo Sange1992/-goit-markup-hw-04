@@ -415,6 +415,45 @@ border: 1px solid var(--accent-color);
 .footer-adress{
   margin-top: 20px;
 }
+.footer-container{
+  display: flex;
+}
+.footer-container-soc{
+  margin-left: 70px;
+  padding-top: 12px;
+
+}
+.footer-soc-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-fonts-color);
+
+}
+.footer-soc-list{
+  display: flex;
+  margin-top:20px;
+}
+.footer-soc-item + .footer-soc-item{
+  margin-left: 10px;
+}
+.footer-soc-link{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--third-fonts-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus{
+  background-color: var(--accent-color);
+}
 
 /*-------------- PORFOLIO------------ */
 .portfolio{
